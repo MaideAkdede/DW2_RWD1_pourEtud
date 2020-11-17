@@ -8,7 +8,12 @@
  une bordure noire de 5px sans dépasser de l'écran
 
 */
-
+html{
+	box-sizing: border-box;
+}
+*{
+	box-sizing: inherit;
+}
 body {margin:0; padding:10px 40px; background:#F1EFE2;
 	font-size: 1.6em;
 	font-family: georgia, "trebuchet ms", arial, serif;}
@@ -20,5 +25,6 @@ p {margin: 0; background: #6B9A49; color: #fff;}
 
 p {
 	width: 100%; /* interdit de toucher ! */
-	
+	padding: 50px;
+	border: 5px solid black;
 }

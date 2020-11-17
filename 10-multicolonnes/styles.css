@@ -8,7 +8,6 @@
 2- Tous les autres doivent s'afficher sur deux colonnes, de couleur noire mais sans couleur d'arrière-plan. Un espace de 50px entre chaque colonne ainsi qu'un trait de séparation de couleur #ccc doivent apparaître
 
 */
-
 body {margin:0; padding:10px 40px; background:#F1EFE2;
 	font-size: 1.6em;
 	font-family: georgia, "trebuchet ms", arial, serif;}

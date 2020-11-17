@@ -23,15 +23,24 @@ p {
 	border-radius: 10px;
 	color: #fff;
 }
+.main{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
 .aside {
 	background: orange;
+	width: 200px;
 }
 .info {
 	background: hotpink;
+	width: 200px;
 }
 .content {
 	background: olivedrab;
+	flex: 1;
 }
 .footer {
 	background: gray;
+	width: 100%;
 }

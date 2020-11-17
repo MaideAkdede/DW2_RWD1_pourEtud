@@ -12,12 +12,16 @@ body {
 	padding: 10px 30px;
 	background: #F1EFE2;
 	font-family: "Century Gothic", helvetica, arial, sans-serif;
+
+	display: flex;
 }
 div {
 	color: #fff;
 }
 .aside {
 	background: orange;
+	min-width: 200px;
+	margin-right: 10px;
 }
 .content {
 	background: olivedrab;

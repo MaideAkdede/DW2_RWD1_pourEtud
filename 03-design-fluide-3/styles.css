@@ -36,15 +36,20 @@ footer{
 }
 .main {
 	background: #fff;
+	align-items: flex-start;
 }
 .aside {
 	background: orange;
+	margin-right: 10px;
 }
 .info {
 	background: hotpink;
+	width: 25%;
+	margin-right: 10px;
 }
 .content {
 	background: olivedrab;
+	flex: 1;
 }
 footer {
 	background: gray;
@@ -56,9 +61,11 @@ footer {
 
 
 /* placer ici les styles globaux */
-
+.main{
+	display: flex;
+}
 .aside {
-	
+	width: 200px;
 }
 .info {
 	
